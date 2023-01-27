@@ -2,14 +2,14 @@ PATH
   remote: .
   specs:
     ruby-pardot (1.4.1)
-      crack (= 0.4.3)
+      crack (= 0.4.5)
       httparty (= 0.21.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    crack (0.4.3)
-      safe_yaml (~> 1.0.0)
+    crack (0.4.5)
+      rexml
     diff-lcs (1.4.4)
     fakeweb (1.3.0)
     httparty (0.21.0)
@@ -17,6 +17,7 @@ GEM
       multi_xml (>= 0.5.2)
     mini_mime (1.1.2)
     multi_xml (0.6.0)
+    rexml (3.2.5)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
       rspec-expectations (~> 3.5.0)
@@ -30,7 +31,6 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
-    safe_yaml (1.0.5)
 
 PLATFORMS
   ruby
@@ -42,4 +42,4 @@ DEPENDENCIES
   ruby-pardot!
 
 BUNDLED WITH
-   2.2.7
+   2.3.26
